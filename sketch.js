@@ -40,7 +40,7 @@ function setup() {
 	//wall2.shapeColor=("red")
 	//wall3.shapeColor=("red")
 
-	wall1=createSprite(400,650,100,20);
+	wall1=createSprite(400,660,100,20);
 	wall2=createSprite(360,610,20,80);
 	wall3=createSprite(440,610,20,80);
 //if (wall1.isTouching(packageBody)||wall2.isTouching(packageBody)||wall3.isTouching(packageBody)){
