@@ -36,16 +36,12 @@ function setup() {
 	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0, isStatic:true});
 	World.add(world, packageBody);
 	
-	//wall1.shapeColor=("red")
-	//wall2.shapeColor=("red")
-	//wall3.shapeColor=("red")
-
-	wall1=createSprite(400,665,150,10);
-	wall2=createSprite(325,620,05,80);
-	wall3=createSprite(475,620,05,80);
-//if (wall1.isTouching(packageBody)||wall2.isTouching(packageBody)||wall3.isTouching(packageBody)){
-	//packageBody.velocity=0;
-//}
+	wall1=createSprite(400,665,172,10);
+	wall2=createSprite(325,620,20,80);
+	wall3=createSprite(475,620,20,80);
+	wall1.shapeColor=("red")
+	wall2.shapeColor=("red")
+	wall3.shapeColor=("red")
 	//Create a Ground
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
